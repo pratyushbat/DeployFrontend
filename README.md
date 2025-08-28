@@ -47,3 +47,6 @@ to test
 
 git clean -df
 rm -rf .git
+
+revently visited branch
+$ git checkout -
