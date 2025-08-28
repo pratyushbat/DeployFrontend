@@ -25,4 +25,24 @@ git log --graph  --oneline --decorate
 git bisect start
 $ git bisect bad
  git bisect good last_commit_id
+<!-- to check bad commits -->
  
+ 
+ git rebase main --interactive
+ use squash insted of pick to merge multipl commit then type escape and :wq
+
+only if something wrong 
+ git rebase --abort 
+
+or do below way
+
+git commit -- fixup fb2f677 
+git commit -- squash fc2f55 
+git rebase -i --autosquash
+
+
+git hooks
+npm i husky -D
+to test 
+
+s
