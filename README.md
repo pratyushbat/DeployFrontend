@@ -45,4 +45,5 @@ git hooks
 npm i husky -D
 to test 
 
-s
+git clean -df
+rm -rf .git
