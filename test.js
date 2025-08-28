@@ -2,3 +2,6 @@ console.log('test.js')
 console.log('added in feature branch')
 
 console.log("my code is good but not good enough to push now")
+console.log('added first feature commit')
+console.log('added second feature commit')
+console.log('added third feature commit')
